@@ -12,4 +12,5 @@ Tabla productos:
 •	El producto con categoria nula puede asignarse a una categoría existente o marcarse como "Sin Categoría". Justificá tu elección.
 Respuesta: Cuando un producto no tiene precio, se corre el riesgo de que su valor nulo afecte a los cálculos de ingresos y costos, pero el producto no puede ser eliminado ya que rompería las relaciones del modelo (si es que ya se vendió o se va a vender), entonces, hay que asignarle un valor que sea lógico. Por ejemplo, por el valor promedio de la categoría.
 En este caso, al ser el único producto de la categoría, se le agregará un margen sobre el costo del 90%, ya que el 90% es el margen de ganancia promedio de los demás productos.
+
 El producto con categoría nula puede asignarse a una categoría existente o marcarse “Sin Categoría”. En este caso, conviene asignarle una categoría. Entre todos los productos, hay 4 categorías distintas y 6 subcategorías. El producto con ID_producto=111 pertenece a la subcategoría “Laptops”. Esta subcategoría, está asignada dentro de la Categoría “Computación”, entonces, lo lógico es que al artículo pertenezca a esa misma categoría. 
